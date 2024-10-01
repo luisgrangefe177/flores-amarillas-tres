@@ -33,11 +33,10 @@ body {
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
-      font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 530px;
-      letter-spacing: 3px;
+    font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
+    margin-bottom: 530px;
+    letter-spacing: 3px;
   }
-
 }
 .titulo {
   margin-bottom: 180px;
@@ -111,13 +110,12 @@ body {
 
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
-.flowers {
-      font-size: 14px;
-      margin-bottom: 35%;
-      letter-spacing: 3px;
-      transform: scale(1.0);
-}
-
+  .flowers {
+    font-size: 14px;
+    margin-bottom: 35%;
+    letter-spacing: 3px;
+    transform: scale(1);
+  }
 }
 
 .flower {
@@ -250,7 +248,7 @@ body {
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
   background-color: #253bfd;
-  background-color: #fddd25;
+  background-color: #ee0707;
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -1608,16 +1606,17 @@ body {
   animation-play-state: paused !important;
 } /*# sourceMappingURL=main.css.map */
 
-
 /* Reset de estilos básicos */
-body, h1, p {
+body,
+h1,
+p {
   margin: 0;
   padding: 0;
 }
 
 /* Estilos generales */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #f7f7f7;
   color: #333;
 }
@@ -1638,21 +1637,21 @@ h1 {
 @media screen and (max-width: 600px) {
   /* Estilos para pantallas pequeñas */
   h1 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Estilos para pantallas medianas */
   h1 {
-      font-size: 1.8em;
+    font-size: 1.8em;
   }
 }
 
 @media screen and (min-width: 1025px) {
   /* Estilos para pantallas grandes */
   h1 {
-      font-size: 2em;
+    font-size: 2em;
   }
 }
 
